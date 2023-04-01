@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { staggerContainer, fadeIn, zoomIn } from "../utils/motion";
+import { motion } from 'framer-motion';
+import { staggerContainer, fadeIn, zoomIn } from '../utils/motion';
 
-import styles from "../styles";
+import styles from '../styles';
 
 
 const Feedback = () => (

@@ -1,11 +1,11 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { staggerContainer } from "../utils/motion";
-import { InsightCard, TypingText, TitleText } from "../components";
-import styles from "../styles";
+import { motion } from 'framer-motion';
+import { staggerContainer } from '../utils/motion';
+import { InsightCard, TypingText, TitleText } from '../components';
+import styles from '../styles';
 
-import { insights } from "../constants";
+import { insights } from '../constants';
 
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>

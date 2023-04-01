@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { footerVariants } from "../utils/motion";
-import { socials } from "../constants";
-import styles from "../styles";
+import { motion } from 'framer-motion';
+import { footerVariants } from '../utils/motion';
+import { socials } from '../constants';
+import styles from '../styles';
 
 const Footer = () => (
   <motion.footer
@@ -42,7 +42,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2021 - 2023 Metaversus. All rights reserved.</p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img 
+              <img
                 key={social.name}
                 src={social.url}
                 alt={social.name}

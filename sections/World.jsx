@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { staggerContainer, fadeIn } from "../utils/motion";
-import { TypingText, TitleText } from "../components";
-import styles from "../styles";
+import { motion } from 'framer-motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
+import { TypingText, TitleText } from '../components';
+import styles from '../styles';
 
 
 const World = () => (
