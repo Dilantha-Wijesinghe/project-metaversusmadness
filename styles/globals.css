@@ -10,9 +10,10 @@
   scroll-behavior: smooth; 
 }
 
-html {
+
+#body {
   background-color: #1A232E;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .gradient-01 {

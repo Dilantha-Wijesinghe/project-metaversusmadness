@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '../components';
+import { Footer, Navbar } from "../components";
 import {
   About,
   Explore,
@@ -8,10 +8,10 @@ import {
   Insights,
   WhatsNew,
   World,
-} from '../sections';
+} from "../sections";
 
-const Page = () => (
-  <div className="">
+const Home = () => (
+  <div id="body" >
     <Navbar />
     <Hero />
     <div className="relative">
@@ -34,4 +34,4 @@ const Page = () => (
   </div>
 );
 
-export default Page;
+export default Home;
